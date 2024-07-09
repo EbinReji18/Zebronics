@@ -1,0 +1,405 @@
+body{
+
+    background-color: #f1f1f1;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.navbar{
+    display: flex;
+    
+    
+}
+
+.nav-main{
+    display: flex;
+    height:76px;
+    width: 100%;
+    
+}
+
+.nav-link{
+    
+    
+    color: white;
+    font-size: 15px;
+    font-weight: 700; 
+}
+.logo{
+    width: 100%;
+    height: 30px;
+}
+
+.logo-div{
+    padding-right: 6%;
+}
+
+
+/* ------------------------------------------ */
+
+/* .cust-caro{
+    display: flex;
+} */
+
+.carousel-item{
+    position: relative;
+    
+}
+
+.caro-p2{
+    /* position: absolute; */
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.caro-p1{
+    /* position: absolute; */
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.caro-p3{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+
+.caro-cap1{
+    position: absolute;
+    text-align: right;
+    
+    
+}
+
+.caro-cap2{
+    position: absolute; 
+    text-align: left;
+    margin-bottom: 150px;
+}
+
+.caro-cap3{
+    position: absolute;
+    text-align: left;
+    margin-bottom: 100px;
+
+}
+
+.caro-btn1{
+    height: 50px;
+    width: 165px;
+    border-radius: 16px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.caro-btn1:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+
+}
+
+.caro-btn2{
+    height: 50px;
+    width: 185px;
+    border-radius: 16px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.caro-btn2:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+}
+
+.caro-btn3{
+    height: 50px;
+    width: 150px;
+    border-radius: 16px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.caro-btn3:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+}
+
+iframe{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.caro1{
+    border-radius: 16px;
+}
+
+.carousel-caption{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.cards1{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+    gap: 20px;
+    width: 100%;
+    height:400px ;
+    
+    
+}
+
+.card1{
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 20%;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+/* -------------------------------------- */
+
+
+.cards2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    gap: 20px;
+}
+
+.card2{
+    width: 30%;
+    height: 500px;
+    flex: 0 0 auto;
+
+}
+
+.cards3{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    gap: 20px;
+    width: 100%; 
+    padding: 10px;
+    box-sizing: border-box;
+    flex-direction: row;
+    height:450px;
+}
+
+.card3{
+    height: 400px;
+    flex: 0 0 auto; /* Prevents the cards from shrinking or growing */
+    width: 300px;   /* Fixed width for each card */
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* ----------------------------------------------- */
+.ban-img{
+    width: 100%;
+    height: 285px;
+}
+
+.buying{
+    background: url(./photos/Zeb-Juke_bar_9900-Soundbar-Metal_Grid.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.bg-btn{
+    width: 154px;
+    height: 52px;
+    color: white;
+    background-color: #272727;
+    border-radius: 16px;
+    font-weight: 700;
+    
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-btn:hover{
+    color: #272727;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #272727;
+}
+
+
+/* grid use */
+
+.grid-use{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.echo{
+    width: 95%;
+    height: 652px;
+    background: url(./photos/Zeb-Juke_bar_9550.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+.led{
+    width: 95%;
+    height: 300px;
+    background: url(./photos/led.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    
+}
+
+.projector{
+    width: 95%;
+    height: 300px;
+    background: url(./photos/projector_4677649f-6e2d-4443-9a6a-219a9f9179a9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.dolby{
+    width: 95%;
+    height: 300px;
+    background: url(./photos/Zeb-Juke_bar_9900-Soundbar-Metal_Grid.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    
+}
+
+.bnr-txt{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -0.4;
+    word-spacing: 0px;
+    font-family: "Roboto", sans-serif;
+    color:#f1f1f1;
+    text-shadow: -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;;
+    
+}
+/* ------------------------------ */
+.led{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.projector{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dolby1{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.pro{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.choose{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.buying{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.g-dream{
+    height: 850px;
+    background: url(./photos/g-dream.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.card-title1{
+    text-align: center;
+}
+
+.img-card1{
+    border-radius: 16px;
+}
+
+.img-card1:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    border-radius: 18px;
+}
+
+.card-title2{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 45%;
+
+}
+.card-title2:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+}
+.card-img:hover{
+
+}
